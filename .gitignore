@@ -1,0 +1,33 @@
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+.venv/
+venv/
+.vercel/
+
+# Dependencies and build output
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.sqlite3
+*.sqlite3-journal
+backend/staticfiles/
+backend/media/
+
+# Editor and operating system
+.DS_Store
+Thumbs.db
+.idea/
+*.log
+
+# Browser verification output
+frontend/test-results/
+frontend/playwright-report/
+frontend/artifacts/
